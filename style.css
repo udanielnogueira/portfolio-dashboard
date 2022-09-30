@@ -37,10 +37,10 @@ body{
     justify-content: center;
 
     grid-template-areas: "aside main";
-    grid-template-columns: 34.8rem 95.2rem;
-    gap: 1.7rem 3rem;
+    grid-template-columns: 34.8rem 90rem;
+    gap: 0rem 3.5rem;
 
-    margin: 4rem 2rem;
+    margin: 3rem 0rem;
 }
 
 aside{
@@ -49,7 +49,9 @@ aside{
     display: flex;
     flex-direction: column;
 
-    gap: 3rem;
+    /*espaço entre os elementos*/
+    /*só funciona com display flex*/
+    gap: 2rem;
 }
 
 main{
@@ -58,7 +60,7 @@ main{
     display: flex;
     flex-direction: column;
 
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto-1, .projeto-2{
@@ -69,14 +71,49 @@ main{
 
 }
 
+.profile, .links{
+    display: flex;
+    flex-direction: column;
+}
+
 /*Profile*/
 
 .profile{
-    
+    align-items: center;
+    justify-content: center;
+    padding: 3.2rem 0 4.9rem 0;
+
 }
 
 .profile img{
     width: 12.8rem;
     border-radius: 50%;
-    border: var(--bg-techs) 2px solid;
+    border: var(--bg-techs) 0.2rem solid;
+    margin-bottom: 3rem;
+}
+
+.profile h1{
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile p{
+    font-weight: 300;
+    font-size: 1.30rem;
+}
+
+/*Links*/
+
+.links{
+    padding: 3rem 4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    gap: 2rem;
+}
+
+.links a{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }

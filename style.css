@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -37,6 +42,34 @@ body{
 
     margin: 4rem 2rem;
 }
+
+aside{
+    grid-area: aside;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem;
+}
+
+main{
+    grid-area: main;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem;
+}
+
+.profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto-1, .projeto-2{
+    background-color: var(--bg-cards);
+    border-radius: 1.25rem;
+    border-right: rgba(0,0,0,0.4) 3px solid;
+    border-bottom: rgba(0,0,0,0.4) 3px solid;
+
+}
+
+/*Profile*/
 
 .profile img{
     width: 12.8rem;

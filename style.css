@@ -1,0 +1,38 @@
+/*Merriweather Sans Light 300 Regular 400 Medium 500 Bold 700*/
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: normal;
+    font-size: 1.6rem;
+
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+.container{
+    display: grid;
+}
+
+.profile img{
+    width: 12.8rem;
+    border-radius: 50%;
+    border: var(--bg-techs) 2px solid;
+}

@@ -68,18 +68,27 @@ main{
     border-radius: 1.25rem;
     border-right: rgba(0,0,0,0.4) 3px solid;
     border-bottom: rgba(0,0,0,0.4) 3px solid;
-
 }
 
-.profile, .links, .tecnologias, .experiencias, .educacao, .experiencias ul, .educacao ul{
+.meus-projetos, .projetos, .pasta a, .icones{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile, .links, .tecnologias, .experiencias, .educacao, .experiencias ul, .educacao ul,
+.projeto-1, .projeto-2{
     display: flex;
     flex-direction: column;
+}
+
+.tecnologias, .experiencias, .educacao, .projeto-1, .projeto-2{
+    padding: 3rem 2rem;
 }
 
 .tecnologias h2, .experiencias h2, .educacao h2{
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 /*Profile*/
@@ -123,7 +132,6 @@ main{
 /*Tecnologias*/
 
 .tecnologias{
-    padding: 3rem 2rem 2rem 2rem;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -151,7 +159,6 @@ main{
 /*Experiências e Educação*/
 
 .experiencias, .educacao{
-    padding: 3rem 2rem;
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -164,4 +171,31 @@ main{
 .experiencias h3, .educacao h3{
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+/*Meus projetos*/
+
+.meus-projetos{
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.meus-projetos h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.projetos{
+    gap: 3rem;
+}
+
+.projeto-1, .projeto-2{
+    gap: 2rem;
+}
+
+.pasta a{
+    gap: 1.6rem;
 }

@@ -71,9 +71,15 @@ main{
 
 }
 
-.profile, .links{
+.profile, .links, .tecnologias, .experiencias, .educacao, .experiencias ul, .educacao ul{
     display: flex;
     flex-direction: column;
+}
+
+.tecnologias h2, .experiencias h2, .educacao h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
 
 /*Profile*/
@@ -82,7 +88,8 @@ main{
     align-items: center;
     justify-content: center;
     padding: 3.2rem 0 4.9rem 0;
-
+    font-weight: 300;
+    font-size: 1.30rem;
 }
 
 .profile img{
@@ -98,22 +105,63 @@ main{
     margin-bottom: 0.5rem;
 }
 
-.profile p{
-    font-weight: 300;
-    font-size: 1.30rem;
-}
-
 /*Links*/
 
 .links{
     padding: 3rem 4rem;
     font-size: 1.2rem;
     font-weight: 400;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .links a{
     display: flex;
     align-items: center;
     gap: 1.5rem;
+}
+
+/*Tecnologias*/
+
+.tecnologias{
+    padding: 3rem 2rem 2rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.lista-tecnologias-1, .lista-tecnologias-2, .lista-tecnologias-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.elemento-tecnologia{
+    background-color: var(--bg-techs);
+    color: var(--body-bg-color);
+    margin: 0.5rem;
+    width: 8.6rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.25rem;
+}
+
+/*Experiências e Educação*/
+
+.experiencias, .educacao{
+    padding: 3rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.experiencias ul, .educacao ul{
+    padding-left: 3rem;
+    gap: 1.7rem;
+}
+
+.experiencias h3, .educacao h3{
+    font-size: 1.4rem;
+    font-weight: 700;
 }

@@ -125,12 +125,14 @@ main{
     padding: 3rem 4rem;
     font-size: 1.2rem;
     font-weight: 400;
+    /* original 2rem */
     gap: 1.5rem;
 }
 
 .links a{
     display: flex;
     align-items: center;
+    /* original 2rem */
     gap: 1.5rem;
 }
 

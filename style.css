@@ -1,4 +1,4 @@
-/*Merriweather Sans Light 300 Regular 400 Medium 500 Bold 700*/
+/* Merriweather Sans Light 300 Regular 400 Medium 500 Bold 700 */
 
 :root {
     --body-bg-color: #22212C;
@@ -34,13 +34,16 @@ body{
 
 .container{
     display: grid;
+
+    /* Usei space-between ao invés de center */
+    /* Para respeitar o margin-width */
     justify-content: center;
 
     grid-template-areas: "aside main";
     grid-template-columns: 34.8rem 90rem;
-    gap: 0rem 3.5rem;
+    gap: 1.9rem 3rem;
 
-    margin: 3rem 0rem;
+    margin: 4rem 4rem;
 }
 
 aside{
@@ -49,9 +52,9 @@ aside{
     display: flex;
     flex-direction: column;
 
-    /*espaço entre os elementos*/
-    /*só funciona com display flex*/
-    gap: 2rem;
+    /* espaço entre os elementos */
+    /* só funciona com display flex */
+    gap: 3rem;
 }
 
 main{
@@ -60,7 +63,8 @@ main{
     display: flex;
     flex-direction: column;
 
-    gap: 2rem;
+    gap: 3rem;
+    max-width: 100%;
 }
 
 .profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto-1, .projeto-2{
@@ -81,7 +85,7 @@ main{
     flex-direction: column;
 }
 
-.tecnologias, .experiencias, .educacao, .projeto-1, .projeto-2{
+.tecnologias, .experiencias, .educacao{
     padding: 3rem 2rem;
 }
 
@@ -194,6 +198,15 @@ main{
 
 .projeto-1, .projeto-2{
     gap: 2rem;
+    width: 46.1rem;
+    padding: 3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.pasta{
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .pasta a{

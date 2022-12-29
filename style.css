@@ -68,6 +68,7 @@ main{
 
 .profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto-1, .projeto-2{
     background-color: var(--bg-cards);
+    /* original 2rem */
     border-radius: 1.25rem;
     border-right: rgba(0,0,0,0.4) 3px solid;
     border-bottom: rgba(0,0,0,0.4) 3px solid;

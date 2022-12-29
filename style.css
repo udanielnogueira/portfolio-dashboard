@@ -154,13 +154,14 @@ main{
 .elemento-tecnologia{
     background-color: var(--bg-techs);
     color: var(--body-bg-color);
+    /* original 1.5 */
     margin: 0.5rem;
     width: 8.6rem;
     height: 2.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 1.25rem;
+    border-radius: 3rem;
 }
 
 /*Experiências e Educação*/
@@ -172,6 +173,7 @@ main{
 
 .experiencias ul, .educacao ul{
     padding-left: 3rem;
+    /* sem medida original */
     gap: 1.7rem;
 }
 

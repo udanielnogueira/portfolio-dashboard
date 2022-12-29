@@ -34,13 +34,12 @@ body{
 
 .container{
     display: grid;
-
-    /* Usei space-between ao invés de center */
-    /* Para respeitar o margin-width */
     justify-content: center;
 
     grid-template-areas: "aside main";
     grid-template-columns: 34.8rem 90rem;
+    
+    /* original 1.9rem 6rem */
     gap: 1.9rem 3rem;
 
     margin: 4rem 4rem;
@@ -52,7 +51,7 @@ aside{
     display: flex;
     flex-direction: column;
 
-    /* espaço entre os elementos */
+    /* gap garante espaço entre elementos */
     /* só funciona com display flex */
     gap: 3rem;
 }

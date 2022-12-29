@@ -115,6 +115,7 @@ main{
 .profile h1{
     font-weight: 700;
     font-size: 2.3rem;
+    /* original 1rem */
     margin-bottom: 0.5rem;
 }
 

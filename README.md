@@ -12,7 +12,7 @@
 
 ## Preview
 
-![Preview do projeto](img/portfolio-page-preview.gif "Portfolio Page Preview")
+![Preview do projeto](assets/portfolio-dashboard-preview.gif "Portfolio Page Preview")
 
 ## Tecnologias
 

@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://github.com/udanielnogueira/portfolio-dashboard/blob/main/assets/portfolio-dashboard-logo.png" alt="Profile Page logo" height="300">
 <h3>Portfolio Dashboard</h3>
-<p>Uma página usada para exibir portfolio e currículo.</p>
+<p>Página dashboard para exibir portfolio e currículo.</p>
 <img src="https://img.shields.io/github/languages/count/udanielnogueira/portfolio-dashboard">
 <img src="https://img.shields.io/github/languages/top/udanielnogueira/portfolio-dashboard">
 <img src="https://img.shields.io/github/languages/code-size/udanielnogueira/portfolio-dashboard">

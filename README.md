@@ -24,6 +24,10 @@
 
 <a href="https://udanielnogueira.github.io/portfolio-dashboard/" target="_blank">Portfolio Dashboard</a>
 
+## Layout do Projeto
+
+<a src="https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio">Layout do Portfolio Dashboard</a>
+
 <!-- 
 Images
 ![Image](image.png "Image")

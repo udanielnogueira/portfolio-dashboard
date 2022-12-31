@@ -66,7 +66,7 @@ main{
     max-width: 100%;
 }
 
-.profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto{
+.profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto, .post{
     background-color: var(--bg-cards);
     /* original 2rem */
     border-radius: 1.25rem;
@@ -74,13 +74,13 @@ main{
     border-bottom: rgba(0,0,0,0.4) 3px solid;
 }
 
-.meus-projetos, .projetos, .pasta a, .icones, .icone, .detalhes, .linguagem{
+.meus-projetos, .projetos, .pasta a, .icones, .icone, .detalhes, .linguagem, .post, .post-info ul{
     display: flex;
     flex-direction: row;
 }
 
 .profile, .links, .tecnologias, .experiencias, .educacao, .experiencias ul, .educacao ul,
-.projeto{
+.projeto, .post-info{
     display: flex;
     flex-direction: column;
 }
@@ -95,12 +95,12 @@ main{
     padding-bottom: 2rem;
 }
 
-/*Profile*/
+/* Profile */
 
 .profile{
+    padding: 3.2rem;
+    height: 29.2rem;
     align-items: center;
-    justify-content: center;
-    padding: 3.2rem 0 4.9rem 0;
     font-weight: 300;
     font-size: 1.30rem;
 }
@@ -119,7 +119,7 @@ main{
     margin-bottom: 0.5rem;
 }
 
-/*Links*/
+/* Links */
 
 .links{
     padding: 3rem 4rem;
@@ -136,7 +136,7 @@ main{
     gap: 1.5rem;
 }
 
-/*Tecnologias*/
+/* Tecnologias */
 
 .tecnologias{
     font-size: 1rem;
@@ -164,7 +164,7 @@ main{
     border-radius: 3rem;
 }
 
-/*Experiências e Educação*/
+/* Experiências e Educação */
 
 .experiencias, .educacao{
     font-size: 1.2rem;
@@ -182,7 +182,7 @@ main{
     font-weight: 700;
 }
 
-/*Meus projetos*/
+/* Meus projetos */
 
 .meus-projetos{
     align-items: center;
@@ -253,4 +253,35 @@ main{
 
 .circulo-js{
     background-color: yellow;
+}
+
+/* Posts */
+
+.post{
+    padding: 3rem 0rem 4.2rem 3rem;
+    height: 20.1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.post img{
+    height: 12.8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.post h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.post li{
+    list-style: none;
+    padding-right: 1rem;
+}
+
+.post-info{
+    justify-content: space-between;
 }

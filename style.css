@@ -125,8 +125,7 @@ main{
     padding: 3rem 4rem;
     font-size: 1.2rem;
     font-weight: 400;
-    /* original 2rem */
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .links a{
@@ -185,6 +184,7 @@ main{
 /* Meus projetos */
 
 .meus-projetos{
+    height: 8.6rem;
     align-items: center;
     justify-content: space-between;
     padding: 3rem;
@@ -198,6 +198,8 @@ main{
 }
 
 .projetos{
+    justify-content: space-between;
+    height: 18.6rem;
     gap: 3rem;
 }
 
@@ -206,16 +208,17 @@ main{
 }
 
 .projeto{
-    gap: 2rem;
     width: 46.1rem;
     padding: 3rem;
     font-size: 1.4rem;
     font-weight: 400;
+    justify-content: space-between;
 }
 
 .pasta{
     font-size: 1.6rem;
     font-weight: 700;
+    padding-bottom: 2rem;
 }
 
 .pasta a{

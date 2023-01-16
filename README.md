@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/udanielnogueira/portfolio-dashboard/blob/main/assets/portfolio-dashboard-logo.png" alt="Portfolio Dashboard logo" height="300">
+<img src="https://github.com/udanielnogueira/portfolio-dashboard/blob/main/assets/portfolio-dashboard-logo.png" alt="Portfolio Dashboard logo" height="250">
 <h3>Portfolio Dashboard</h3>
 <p>Página dashboard para exibir portfolio e currículo.</p>
 <img src="https://img.shields.io/github/languages/count/udanielnogueira/portfolio-dashboard">

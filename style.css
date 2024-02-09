@@ -8,19 +8,18 @@
     font-size: 62.5%;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--text-color);
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
 
@@ -32,31 +31,27 @@ body{
     color: var(--text-color);
 }
 
-.container{
+.container {
     display: grid;
     justify-content: center;
 
     grid-template-areas: "aside main" "footer footer";
     grid-template-columns: 34.8rem 90rem;
     
-    /* original 1.9rem 6rem */
     gap: 1.9rem 3rem;
-
     margin: 4rem 4rem 2rem 4rem;
 }
 
-aside{
+aside {
     grid-area: aside;
 
     display: flex;
     flex-direction: column;
 
-    /* gap garante espaço entre elementos */
-    /* só funciona com display flex */
     gap: 3rem;
 }
 
-main{
+main {
     grid-area: main;
 
     display: flex;
@@ -66,7 +61,7 @@ main{
     max-width: 100%;
 }
 
-footer{
+footer {
     grid-area: footer;
 
     display: flex;
@@ -77,34 +72,32 @@ footer{
     font-weight: 400;
 }
 
-footer a{
+footer a {
     text-decoration: underline;
 }
 
-.profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto, .post{
-    background-color: var(--bg-cards);
-    /* original 2rem */
+.profile, .links, .tecnologias, .experiencias, .educacao, .meus-projetos, .projeto, .post {
     border-radius: 1.25rem;
+    background-color: var(--bg-cards);
     border-right: rgba(0,0,0,0.4) 3px solid;
     border-bottom: rgba(0,0,0,0.4) 3px solid;
 }
 
-.meus-projetos, .projetos, .pasta a, .icones, .icone, .detalhes, .linguagem, .post, .post-info ul{
+.meus-projetos, .projetos, .pasta a, .icones, .icone, .detalhes, .linguagem, .post, .post-info ul {
     display: flex;
     flex-direction: row;
 }
 
-.profile, .links, .tecnologias, .experiencias, .educacao, .experiencias ul, .educacao ul,
-.projeto, .post-info{
+.profile, .links, .tecnologias, .experiencias, .educacao, .experiencias ul, .educacao ul, .projeto, .post-info {
     display: flex;
     flex-direction: column;
 }
 
-.tecnologias, .experiencias, .educacao{
+.tecnologias, .experiencias, .educacao {
     padding: 3rem 2rem;
 }
 
-.tecnologias h2, .experiencias h2, .educacao h2{
+.tecnologias h2, .experiencias h2, .educacao h2 {
     font-size: 2rem;
     font-weight: 700;
     padding-bottom: 2rem;
@@ -112,7 +105,7 @@ footer a{
 
 /* Profile */
 
-.profile{
+.profile {
     padding: 3.2rem;
     height: 29.2rem;
     align-items: center;
@@ -120,44 +113,42 @@ footer a{
     font-size: 1.30rem;
 }
 
-.profile img{
+.profile img {
     width: 12.8rem;
     border-radius: 50%;
     border: var(--bg-techs) 0.2rem solid;
     margin-bottom: 3rem;
 }
 
-.profile h1{
+.profile h1 {
     font-weight: 700;
     font-size: 2.3rem;
-    /* original 1rem */
     margin-bottom: 0.5rem;
 }
 
 /* Links */
 
-.links{
+.links {
     padding: 3rem 4rem;
     font-size: 1.2rem;
     font-weight: 400;
     gap: 2rem;
 }
 
-.links a{
+.links a {
     display: flex;
     align-items: center;
-    /* original 2rem */
     gap: 1.5rem;
 }
 
 /* Tecnologias */
 
-.tecnologias{
+.tecnologias {
     font-size: 1rem;
     font-weight: 700;
 }
 
-.lista-tecnologias-1, .lista-tecnologias-2, .lista-tecnologias-3{
+.lista-tecnologias-1, .lista-tecnologias-2, .lista-tecnologias-3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -165,12 +156,11 @@ footer a{
     text-transform: uppercase;
 }
 
-.elemento-tecnologia{
+.elemento-tecnologia {
     background-color: var(--bg-techs);
     color: var(--body-bg-color);
-    /* original 1.5 */
-    margin: 0.5rem;
     width: 8.6rem;
+    margin: 0.5rem;
     height: 2.4rem;
     display: flex;
     align-items: center;
@@ -180,82 +170,81 @@ footer a{
 
 /* Experiências e Educação */
 
-.experiencias, .educacao{
-    font-size: 1.2rem;
+.experiencias, .educacao {
     font-weight: 400;
+    font-size: 1.2rem;
 }
 
-.experiencias ul, .educacao ul{
-    padding-left: 3rem;
-    /* sem medida original */
+.experiencias ul, .educacao ul {
     gap: 1.7rem;
+    padding-left: 3rem;
 }
 
-.experiencias h3, .educacao h3{
-    font-size: 1.4rem;
+.experiencias h3, .educacao h3 {
     font-weight: 700;
+    font-size: 1.4rem;
 }
 
 /* Meus projetos */
 
-.meus-projetos{
+.meus-projetos {
     height: 8.6rem;
     align-items: center;
     justify-content: space-between;
     padding: 3rem;
-    font-size: 1.4rem;
     font-weight: 400;
+    font-size: 1.4rem;
 }
 
-.meus-projetos h2{
+.meus-projetos h2 {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.projetos{
-    justify-content: space-between;
-    height: 18.6rem;
+.projetos {
     gap: 3rem;
+    height: 18.6rem;
+    justify-content: space-between;
 }
 
-.projetos img{
+.projetos img {
     width: 2rem;
 }
 
-.projeto{
-    width: 46.1rem;
+.projeto {
     padding: 3rem;
-    font-size: 1.4rem;
+    width: 46.1rem;
     font-weight: 400;
+    font-size: 1.4rem;
     justify-content: space-between;
 }
 
-.pasta{
-    font-size: 1.6rem;
+.pasta {
     font-weight: 700;
+    font-size: 1.6rem;
     padding-bottom: 2rem;
 }
 
-.pasta a{
+.pasta a {
     gap: 1.6rem;
 }
 
-.detalhes{
+.detalhes {
     align-items: center;
     justify-content: space-between;
 }
 
-.icones{
-    align-items: center;
+.icones {
     gap: 1.6rem;
+    align-items: center;
 }
 
-.icone, .linguagem{
+.icone, .linguagem {
     gap: 0.8rem;
     align-items: center;
 }
 
-.circulo{
+.circulo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,41 +254,41 @@ footer a{
     
 }
 
-.circulo-html{
+.circulo-html {
     background-color: orangered;
 }
 
-.circulo-js{
+.circulo-js {
     background-color: yellow;
 }
 
 /* Posts */
 
-.post{
-    padding: 3rem 0rem 4.2rem 3rem;
+.post {
     height: 20.1rem;
-    font-size: 1.4rem;
     font-weight: 400;
+    font-size: 1.4rem;
+    padding: 3rem 0rem 4.2rem 3rem;
 }
 
-.post img{
+.post img {
     height: 12.8rem;
     border-radius: 50%;
-    margin-bottom: 3rem;
     margin-right: 2rem;
+    margin-bottom: 3rem;
 }
 
-.post h2{
-    font-size: 1.8rem;
+.post h2 {
     font-weight: 700;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
 
-.post li{
+.post li {
     list-style: none;
     padding-right: 1rem;
 }
 
-.post-info{
+.post-info {
     justify-content: space-between;
 }
